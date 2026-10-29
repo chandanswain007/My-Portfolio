@@ -1,0 +1,21 @@
+.certifications-section {
+  padding: 100px 0;
+  background: #0f172a;
+}
+
+.timeline-item {
+  margin-bottom: 25px;
+}
+
+.timeline-content {
+  padding: 25px;
+}
+
+.timeline-content h4 {
+  color: #38bdf8;
+}
+
+.timeline-content p {
+  color: #cbd5e1;
+  margin: 0;
+}

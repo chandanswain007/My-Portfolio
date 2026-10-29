@@ -1,0 +1,24 @@
+.about-section {
+  padding: 100px 0;
+  background: #111827;
+}
+
+.about-card {
+  padding: 30px;
+  height: 100%;
+}
+
+.about-card p {
+  color: #cbd5e1;
+  line-height: 1.8;
+}
+
+.info-list {
+  list-style: none;
+  padding: 0;
+}
+
+.info-list li {
+  margin-bottom: 15px;
+  color: #cbd5e1;
+}

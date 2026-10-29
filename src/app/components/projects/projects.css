@@ -1,0 +1,82 @@
+.projects-section {
+  padding: 100px 0;
+  background: #111827;
+}
+
+.project-card {
+  padding: 30px;
+  transition: all 0.3s ease;
+}
+
+.project-card:hover {
+
+  transform: translateY(-6px);
+
+  box-shadow:
+    0 0 30px rgba(56,189,248,0.25);
+}
+
+.project-image {
+  border-radius: 16px;
+  border: 2px solid rgba(56, 189, 248, 0.3);
+}
+
+.project-title {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.project-description {
+  color: #cbd5e1;
+  line-height: 1.8;
+}
+
+.project-badges {
+  margin: 20px 0;
+}
+
+.project-badges .badge {
+  background: #38bdf8;
+  color: #0f172a;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  padding: 8px 12px;
+}
+
+.project-features {
+  color: #cbd5e1;
+  padding-left: 0;
+  list-style: none;
+}
+
+.metrics-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.metric-box {
+  background: rgba(56, 189, 248, 0.1);
+  border: 1px solid rgba(56, 189, 248, 0.25);
+  border-radius: 12px;
+  padding: 12px;
+  min-width: 90px;
+  text-align: center;
+}
+
+.metric-box h4 {
+  color: #38bdf8;
+  margin: 0;
+  font-weight: 700;
+}
+
+.metric-box span {
+  color: #cbd5e1;
+  font-size: 0.8rem;
+}
+
+.carousel-item img {
+  height: 320px;
+  object-fit: cover;
+}

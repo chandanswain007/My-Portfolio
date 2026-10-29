@@ -1,1 +1,104 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'aos/dist/aos.css';
+
+.light-theme {
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+.light-theme .hero-section,
+.light-theme .skills-section,
+.light-theme .certifications-section {
+  background: #f8fafc;
+}
+
+.light-theme .about-section,
+.light-theme .projects-section,
+.light-theme .contact-section {
+  background: #ffffff;
+}
+
+.light-theme .glass-card {
+  background: rgba(255,255,255,0.9);
+  color: #0f172a;
+  border: 1px solid rgba(0,0,0,0.1);
+}
+
+.light-theme .project-title,
+.light-theme .skill-card h4,
+.light-theme .contact-card h4 {
+  color: #0f172a;
+}
+
+.light-theme .project-description,
+.light-theme .contact-card p,
+.light-theme .skill-card li,
+.light-theme .about-card p {
+  color: #475569;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #0f172a;
+  color: #f8fafc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #38bdf8;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.glass-card {
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(56,189,248,0.2);
+  border-radius: 20px;
+}
+
+.primary-btn {
+  background: #38bdf8;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.primary-btn:hover {
+  background: #0ea5e9;
+  transform: translateY(-2px);
+}
+
+.text-accent {
+  color: #38bdf8;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  background: #38bdf8;
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+  z-index: 999;
+  box-shadow: 0 0 20px rgba(56,189,248,0.4);
+}
+
+.back-to-top:hover {
+  background: #0ea5e9;
+}

@@ -1,0 +1,97 @@
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+  <div class="container">
+
+    <a class="navbar-brand fw-bold" href="#">
+      Chandan Swain
+    </a>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#portfolioNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div
+      class="collapse navbar-collapse"
+      id="portfolioNavbar">
+
+      <ul class="navbar-nav mx-auto">
+
+        <li class="nav-item">
+          <a
+  class="nav-link"
+  href="#home"
+  [class.active-link]="activeSection === 'home'">
+  Home
+</a>
+
+        <li class="nav-item">
+          <a
+  class="nav-link"
+  href="#about"
+  [class.active-link]="activeSection === 'about'">
+  About
+</a>
+
+        </li>
+
+        <li class="nav-item">
+          <a
+  class="nav-link"
+  href="#skills"
+  [class.active-link]="activeSection === 'skills'">
+  Skills
+</a>
+        </li>
+
+        <li class="nav-item">
+          <a
+  class="nav-link"
+  href="#projects"
+  [class.active-link]="activeSection === 'projects'">
+  Projects
+</a>
+        </li>
+
+        <li class="nav-item">
+          <a
+  class="nav-link"
+  href="#certifications"
+  [class.active-link]="activeSection === 'certifications'">
+  Certifications
+</a>
+        </li>
+
+        <li class="nav-item">
+          <a
+  class="nav-link"
+  href="#contact"
+  [class.active-link]="activeSection === 'contact'">
+  Contact
+</a>
+        </li>
+
+      </ul>
+
+      <button
+  class="btn btn-outline-info me-3"
+  (click)="toggleTheme()">
+
+  <i class="fas fa-moon"></i>
+
+</button>
+
+      <a
+  href="files/Chandan-Swain-Resume.pdf"
+  download
+  class="btn btn-info resume-btn">
+
+  Resume
+
+</a>
+
+    </div>
+  </div>
+</nav>
