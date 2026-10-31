@@ -58,8 +58,8 @@ export const PROJECTS = [
       'Production-Ready Architecture'
     ],
 
-    githubUrl: 'https://github.com/chandanswain007',
+    githubUrl: 'https://github.com/chandanswain007/student-management-system.git',
 
-    liveDemoUrl: '#'
+    liveDemoUrl: 'https://student-management-system-client-eta.vercel.app/login?returnUrl=%2Fdashboard'
   }
 ];
